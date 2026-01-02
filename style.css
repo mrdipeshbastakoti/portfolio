@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;600&display=swap');
+
+body {
+  font-family: Poppins, sans-serif; 
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Logo + name side-by-side */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap:10px; 
+}
+
+/* Logo size control */
+.logo {
+  height: 50px;
+}
+
+/* Navigation list */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: rgb(247, 137, 137);
+  font-weight: bold;
+  
+}
+.my_detail{
+  position: relative;
+  max-width: 1000px;
+  margin: .5rem auto;
+  padding: 0;
+  background-color: gainsboro;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.detail_txt {
+position:absolute;
+  bottom: 0.1rem;
+  left: 27rem;
+  right: 0.1rem;
+  padding: 1rem;
+  background-color: rgba(217, 196, 196, 0.55);
+  color: rgb(67, 3, 3);
+  border-radius: 6px;
+  font-family: lora, serif;
+}
+
+.button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: rgb(253, 100, 11);
+  color: #000;
+  border-radius: 4px;
+}
+
+.about,
+.contact-info {
+  max-width: 1000px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background-color: var(--light-bg);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.column {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+.project_header {
+  max-width: auto;
+  margin: 0.5rem auto 0.5rem;
+  padding: 0.1rem;
+  text-align: left;
+}
+.project-list{
+ max-width: 990px;
+ margin:  0 auto 1rem;
+}
+.project{
+  padding: 1rem; 
+  margin-bottom: 1rem;
+  background-color: bisque;
+  border: 1px solid silver;
+  border-radius: 25px;
+
+
+}
+
+/* clearfix  */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+button{
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+}
+a:link {
+color: hsl(210, 85%, 40%);
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid rgb(0, 200, 255);
+}
+.photo1{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+
+}
+footer{
+  text-align: center;
+  font-weight:100;
+  
+
+}
+.topbutton{
+  background-color: pink;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.sociallogo {
+  width: 50px;
+  
+  height: 50px;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+form input , form textarea:focus {
+  background-color: rgb(195, 230, 173);
+  color: rgba(255, 241, 241, 0.87);
+}
